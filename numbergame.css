@@ -51,8 +51,14 @@ html {
   .form {
     display: flex;
     flex-direction: column;
-    width: 50%;
     text-align: center;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .guessSubmit {
+    width: 30%;
     margin: auto;
   }
 
