@@ -26,3 +26,36 @@ html {
     color: white;
     padding: 3px;
   }
+
+
+/* media queries */
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: lightblue;
+  }
+
+  h1{
+    margin: auto;
+    font-size: 10vw;
+  }
+
+  .description p{
+    font-size: 4vw;
+    text-align: center;
+    margin-left: 10px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
+  .resultParas {
+    width: 50%;
+    margin: auto;
+  }
+}
